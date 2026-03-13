@@ -394,6 +394,23 @@ input {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
+.order-type-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 6px;
+  padding: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+.order-type-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  display: block;
+}
+
 .pay-icon svg {
   width: 18px;
   height: 18px;
